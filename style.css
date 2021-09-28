@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.full-website{
+    width: 1550PX;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.hader{
+    background-color: #0cb49a;
+
+}
+.hader-manu{
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+    padding: 15px 0;
+    color: white;
+}
+.manu{
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+.manu ul{
+    display: inline-block;
+    padding: 15px 15px;
+}
+.manu ul li{
+     display: inline-block;
+     text-align: right;
+     
+    }
+.manu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+.banar{
+    background-image: url(https://i.ibb.co/5LK8wHJ/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    background-attachment: fixed;
+    /* width: 100%; */
+    /* height: 540px; */
+    /* background-size: 100%; */
+
+
+}
+.contain-manu{
+    text-align: center;
+    padding: 50px 0;
+    
+  
+}
+.contain-manu h1{
+    margin-top: 20%;
+    padding-bottom: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+.contain-manu p{
+    padding-bottom: 50px;
+    color: #d4f4ee;
+}
+.contain-manu a{
+    text-decoration: none;
+    color: #e9faf6;
+    background: #0dbf9b;
+    border: 2px solid #e5f8f5;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* survice item */
+.survice{
+    text-align: center;
+    border-bottom: 2px solid #07bd99;
+}
+.hading{
+    padding: 55px 0;
+    color: #5e5e5e;
+    
+}
+.hading h2{
+    margin-top: 35px;
+    margin-bottom: 45px;
+    
+    font-size: 35px;
+}
+.survice-item {
+    text-align: center;
+    padding: 60px; 
+    color: #5e5e5e;
+}
+
+span{
+    color: #07bd99;
+    font-size: 25px;
+    padding: 15px;
+    display: inline-block;
+}
+p{
+    color: #5e5e5e;
+    
+    
+}
+.item1{
+    float: left;
+    width: 19%;
+    margin-right: 8%;
+}
+.item1 p{
+    padding: 10px;
+   
+}
+.item2{
+    float: left;
+    width: 19%;
+    margin-right: 8%;
+}
+.item2 p{
+    padding: 10px;
+}
+.item3{
+    float: left;
+    width: 19%;
+    margin-right: 8%;
+}
+.item3 p{
+    padding: 10px;
+}
+.item4{
+    float: left;
+    width: 19%;
+  
+}
+.item4 p{
+    padding: 10px;
+}
+/* about manu */
+
+.about{
+    text-align: center;
+    padding: 70px 0;
+    color: #5e5e5e;
+}
+.about-img{
+    float: left;
+    width: 57%;
+}
+.about-contac{
+    float: left;
+    width: 43%;
+    text-align: left;
+}
+
+.about-hader{
+    line-height: 45px;
+}
+.ambout-manu{
+    padding: 60px 0;
+}
+.about1{
+    float: left;  
+}
+.about1 h2{
+    line-height: 35px;
+}
+.about2{
+    float: left;
+}
+.about2 h2{
+    line-height: 55px;
+}
+.about3 h2{
+    line-height: 60px;
+}
+/* contuc manu */
+
+.countes-us{
+    background-color: #f6f6f6;
+    padding: 50px 0;
+    color:#5e5e5e ;
+}
+.cintues-hader{
+    text-align: center;
+    padding: 25px 0;
+}
+.cintues-hader h2{
+    padding: 25px 0;
+}
+.contus-mau{
+    text-align: center;
+}
+.contues1{
+    float: left;
+    width: 33.3%;
+    line-height: 25px;
+}
+.contues2{
+    float: left;
+    width: 33.3%;
+}
+.contues3{
+    float: left;
+    width: 33.3%;
+    line-height: 25px;
+}
+/* foter manu */
+
+.fotter ul{
+    background-color: #0dbf9b;
+    text-align: center;
+    
+}
+.fotter ul li{
+    display: inline-block;
+    margin-left: 2%;
+    
+    
+    
+}
+.fotter ul li a{
+    padding: 25px 0;
+    display: inline-block;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+.fotter ul li:nth-child(6) a{
+    background-color: white;
+    color: #0dbf9b;
+    padding: 0 5px;
+    font-size: 20px; 
+}
+.fotter-end{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    
+}

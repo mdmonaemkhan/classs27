@@ -1,0 +1,140 @@
+@media ( max-width:1520px) {
+
+    .full-website {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+@media(max-width:1070px) {
+    .about-img {
+        
+        width: 62%;
+    }
+    .about-contac {
+       
+        width: 38%;
+        text-align: left;
+    }
+    .about-hader {
+        line-height: 37px;
+    }
+    .ambout-manu {
+        padding: 30px 0;
+    }
+    .about {
+        padding: 15px 0;
+    }
+    .about2 h2 {
+        line-height: 43px;
+    }
+    .about3 h2 {
+        line-height: 36px;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .hader-manu {    
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .manu {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .about {
+        text-align: center;
+        padding: 20px 0;
+        color: #5e5e5e;
+    }
+    .about-hader {
+        line-height: 30px;
+    }
+    .ambout-manu {
+        padding: 25px 0;
+    }    
+    .about-img {
+        float: left;
+        width: 100%;
+    }
+    .about-contac {
+        width: 95%;
+        text-align: left;
+        padding: 10px 25px;
+    }
+}
+
+@media(max-width:768px) {
+    .item1 {
+        float: left;
+        width: 42%;
+      
+    }
+    .item2 {
+        float: left;
+        width: 42%;
+        
+    }
+    .item3 {
+        float: left;
+        width: 42%;
+        
+    }
+    .item4 {
+        float: left;
+        width: 42%;
+    }
+
+    .about-contac {
+        width: 80%;
+        text-align: center;
+       
+        
+        margin-left: 70px;
+    }
+
+    .contues3 {
+        float: left;
+        width: 100%;
+        line-height: 25px;
+    }
+    .contues2 {
+        float: left;
+        width: 100%;
+    }
+    .contues1 {
+        float: left;
+        width: 100%;
+        line-height: 25px;
+    }
+
+    
+
+    .contain-manu h1 {
+        
+        padding-bottom: 25px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .contain-manu {
+        text-align: center;
+        margin-top: -217px;
+    
+    }
+    .contain-manu h1 {
+       
+        padding-bottom: 12px;
+        
+    }
+    .contain-manu p {
+        padding-bottom: 23px;
+        
+    }
+
+    
+
+}
